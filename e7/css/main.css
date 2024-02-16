@@ -1,0 +1,43 @@
+h1 {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+	font-family: "Montserrat Alternates", sans-serif;
+ 	font-weight: 500;
+ 	font-style: normal;
+}
+
+h1 {
+color: blue;
+}
+
+h2 {
+	color: mediumvioletred;
+}
+
+h3{
+	color: greenyellow;
+}
+
+* {
+	color: hotpink;
+}
+
+ul li {
+	color: lightcoral;
+}
+
+h1, h2, h3, h4 {
+	text-transform: uppercase;
+}
+
+.heading1{
+	color: mediumpurple;
+}
+
+#heading4{
+	color: orangered;
+}

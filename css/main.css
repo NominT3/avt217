@@ -1,5 +1,5 @@
 body{
-	background-color:pink;
+	background-color:lightgreen;
 }
 
 body{
@@ -14,7 +14,7 @@ h2 {
 }
 
 a:visited{
-	color:purple;
+	color:maroon;
 }
 
 a:hover, a:active {
