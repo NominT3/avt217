@@ -23,7 +23,11 @@ h3{
 	color: royalblue;
 }
 
-* {
+hr{
+	color:steelblue;
+}
+
+*{
 	color: darkblue;
 }
 
@@ -35,12 +39,12 @@ h1, h2, h3, h4 {
 	text-align: center;
 }
 
-.heading1{
+.heading1 {
 	color: mediumpurple;
 }
 
-#heading4{
-	color: deepskyblue;
+#heading4 {
+	color: skyblue;
 }
 
 #li1{
