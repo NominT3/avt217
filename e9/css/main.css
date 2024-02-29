@@ -1,0 +1,32 @@
+
+*box {
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+}
+
+.p1-1{
+	width: 58px;
+	height: 94px;
+	background-color: rgba( 0, 133, 211, 80);
+	float: left;
+	opacity: 0.5;
+	margin: -10px;
+	border: 6px;
+	transform: rotate(45deg);
+}
+
+
+
+
+div {
+	width: 100px;
+	height:100px;
+	background: 100px;
+	float: left;
+	margin: 5 px;
+	transform: rotate(45deg);
+	border: 5px solid white;
+}
