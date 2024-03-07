@@ -55,13 +55,86 @@ body{
 	}
 
 .p2-1{
-
+	width: 10px;
+	height: 20px;
+	background-color: cornflowerblue;
+	float: left;
+	opacity: 100;
+	margin: 15px;
+	border: 15px;
+	position: relative;
 }
 
 .p2-2{
-
+	width: 20px;
+	height: 100px;
+	background-color: indianred;
+	float: left;
+	opacity: 100;
+	margin: 10px;
+	border: 10px;
+	position: relative;
+	z-index: 2;
 }
 
 .p2-3{
-	
+	width: 40px;
+	height: 40px;
+	background-color: lightgoldenrodyellow;
+	float: left;
+	opacity: 100;
+	margin: 50px;
+	border: 10px;
+	position: relative;
+	clip-path: circle(50% at center);
+
+}
+
+.p2-4{
+	width: 20px;
+	height: 100px;
+	background-color: rebeccapurple;
+	float: left;
+	opacity: 100;
+	margin: 50px;
+	border: 10px;
+	position: relative;
+	z-index: 1;
+	clear: right;
+}
+
+.p3-1{
+	width:100px;
+	height:150px;
+	background-color: black;
+	float: left;
+	opacity:100;
+	margin: 40px;
+	border: 5px;
+	position: relative;
+	transform: skew(55deg) rotate(45deg);
+}
+
+.p3-2{
+	width:100px;
+	height:150px;
+	background-color: antiquewhite;
+	float: left;
+	opacity:100;
+	margin: 40px;
+	border: 5px;
+	position: relative;
+	transform: skew(55deg) rotate(45deg);
+}
+
+.p3-3{
+	width:50px;
+	height:10px;
+	background-color: lightgrey;
+	float: right;
+	opacity:100;
+	margin: 40px;
+	border: 5px;
+	position: relative;
+	transform: skew(55deg) rotate(45deg);
 }
