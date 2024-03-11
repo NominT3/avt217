@@ -167,38 +167,36 @@ body{
 	background-color: rgb(255,25,25);
 	float: left;
 	opacity:1;
-	margin: 20px;
+	margin: 40px;
 	border: 5px;
 	position: relative;
 }
 
 .p4-2{
-	width:25px;
-	height:25px;
+	width:50px;
+	height:50px;
 	background-color: rgb(255,140,25);
 	float: left;
 	opacity:1;
-	margin: 30px;
+	margin: 40px;
 	border: 5px;
 	position: relative;
-	top: 100px;
 }
 
 .p4-3{
-	width:25px;
-	height:25px;
+	width:75px;
+	height:75px;
 	background-color: rgb(255,255,25);
 	float: left;
 	opacity:1;
 	margin: 40px;
 	border: 5px;
 	position: relative;
-	top: 100px;
 }
 
 .p4-4{
-	width:25px;
-	height:25px;
+	width:100px;
+	height:100px;
 	background-color: rgb(25,255,64);
 	float: left;
 	opacity:1;
@@ -208,25 +206,77 @@ body{
 }
 
 .p4-5{
-	width:25px;
-	height:25px;
+	width:125px;
+	height:125px;
 	background-color: rgb(25,102,255);
 	float: left;
 	opacity:1;
-	margin: 30px;
+	margin: 40px;
 	border: 5px;
 	position: relative;
-	top: 100px;
 }
 
 .p4-6{
-	width:25px;
-	height:25px;
+	width:150px;
+	height:150px;
 	background-color: rgb(140,25,255);
 	float: left;
 	opacity:1;
 	margin: 40px;
 	border: 5px;
 	position: relative;
-	top: 100px;
+}
+
+.p4-7{
+	width:125px;
+	height:125px;
+	background-color: rgb(25,102,255);
+	float: left;
+	opacity:1;
+	margin: 40px;
+	border: 5px;
+	position: relative;
+
+.p4-8{
+	width:100px;
+	height:100px;
+	background-color: rgb(25,255,64);
+	float: left;
+	opacity:1;
+	margin: 40px;
+	border: 5px;
+	position: relative;
+
+.p4-9{
+	width:75px;
+	height:75px;
+	background-color: rgb(255,255,25);
+	float: left;
+	opacity:1;
+	margin: 40px;
+	border: 5px;
+	position: relative;
+}
+
+
+.p4-10{
+	width:25px;
+	height:25px;
+	background-color: rgb(255,25,25);
+	float: left;
+	opacity:1;
+	margin: 40px;
+	border: 5px;
+	position: relative;
+}
+
+.p4-11{
+	width:50px;
+	height:50px;
+	background-color: rgb(255,140,25);
+	float: left;
+	opacity:1;
+	margin: 40px;
+	border: 5px;
+	position: relative;
 }
