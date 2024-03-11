@@ -153,23 +153,16 @@ body{
 	transform: scaleX(10.0);
 }
 
-
-
-
-
-
-
-
-
 .p4-1{
 	width:25px;
 	height:25px;
 	background-color: rgb(255,25,25);
 	float: left;
-	opacity:1;
-	margin: 40px;
-	border: 5px;
+	opacity:0.2;
+	margin: 10px 80px;
+	border: 1px;
 	position: relative;
+	transform: rotate(15deg);
 }
 
 .p4-2{
@@ -177,9 +170,9 @@ body{
 	height:50px;
 	background-color: rgb(255,140,25);
 	float: left;
-	opacity:1;
-	margin: 40px;
-	border: 5px;
+	opacity:0.4;
+	margin: 10px 80px;
+	border: 1px dashed white;
 	position: relative;
 }
 
@@ -188,10 +181,11 @@ body{
 	height:75px;
 	background-color: rgb(255,255,25);
 	float: left;
-	opacity:1;
-	margin: 40px;
-	border: 5px;
+	opacity:0.6;
+	margin: 10px 80px;
+	border: 1px;
 	position: relative;
+	transform: rotate(30deg);
 }
 
 .p4-4{
@@ -199,9 +193,9 @@ body{
 	height:100px;
 	background-color: rgb(25,255,64);
 	float: left;
-	opacity:1;
-	margin: 40px;
-	border: 5px;
+	opacity:0.7;
+	margin: 10px 90px;
+	border: 1px dashed white;
 	position: relative;
 }
 
@@ -210,10 +204,11 @@ body{
 	height:125px;
 	background-color: rgb(25,102,255);
 	float: left;
-	opacity:1;
-	margin: 40px;
-	border: 5px;
+	opacity:0.8;
+	margin: 10px 80px;
+	border: 1px;
 	position: relative;
+	transform: rotate(45deg);
 }
 
 .p4-6{
@@ -222,61 +217,75 @@ body{
 	background-color: rgb(140,25,255);
 	float: left;
 	opacity:1;
-	margin: 40px;
-	border: 5px;
-	position: relative;
-}
-
-.p4-7{
-	width:125px;
-	height:125px;
-	background-color: rgb(25,102,255);
-	float: left;
-	opacity:1;
-	margin: 40px;
-	border: 5px;
-	position: relative;
-
-.p4-8{
-	width:100px;
-	height:100px;
-	background-color: rgb(25,255,64);
-	float: left;
-	opacity:1;
-	margin: 40px;
-	border: 5px;
-	position: relative;
-
-.p4-9{
-	width:75px;
-	height:75px;
-	background-color: rgb(255,255,25);
-	float: left;
-	opacity:1;
-	margin: 40px;
-	border: 5px;
+	margin: 10px 80px;
+	border: 1px dashed white;
 	position: relative;
 }
 
 
-.p4-10{
-	width:25px;
-	height:25px;
-	background-color: rgb(255,25,25);
+
+
+.p5-1{
+	width: 40px;
+	height: 40px;
+	background-color: orange;
 	float: left;
-	opacity:1;
-	margin: 40px;
-	border: 5px;
+	opacity: 100;
+	margin: 50px;
+	border: 10px;
 	position: relative;
+	clip-path: circle(50% at center);
+	transform: skew(10deg);
 }
 
-.p4-11{
-	width:50px;
-	height:50px;
-	background-color: rgb(255,140,25);
+.p5-2{
+	width: 40px;
+	height: 40px;
+	background-color: orangered;
 	float: left;
-	opacity:1;
-	margin: 40px;
-	border: 5px;
+	opacity: 100;
+	margin: 50px;
+	border: 10px;
 	position: relative;
+	clip-path: circle(50% at center);
+	transform: skew(-10deg);
+}
+
+.p5-3{
+	width: 40px;
+	height: 40px;
+	background-color: yellowgreen;
+	float: left;
+	opacity: 100;
+	margin: 50px;
+	border: 10px;
+	position: relative;
+	clip-path: circle(50% at center);
+	transform: skew(10deg);
+}
+
+.p5-4{
+	width: 40px;
+	height: 40px;
+	background-color: mediumvioletred;
+	float: left;
+	opacity: 100;
+	margin: 50px;
+	border: 10px;
+	position: relative;
+	clip-path: circle(50% at center);
+	transform: skew(-10deg);
+}
+
+.p5-5{
+	width: 20px;
+	height: 20px;
+	background-color: skyblue;
+	float: left;
+	opacity: 100;
+	margin: 50px;
+	border: 10px;
+	position: relative;
+	clip-path: circle(50% at center);
+	transform: scaleY(3.0);	
 }
