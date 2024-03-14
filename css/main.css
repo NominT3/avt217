@@ -1,5 +1,24 @@
+header{
+	width:75vw;
+	margin: 25px auto;
+	background-color: skyblue;
+}
+
+main{
+	width:75vw;
+	margin: 25px auto;
+	background-color: floralwhite;
+	display: flow-root;
+}
+
+.col{
+	width: 50%;
+	background-color: floralwhite;
+	float: left;
+}
+
 body{
-	background-color:lightgreen;
+	background-color:aliceblue;
 }
 
 body{
@@ -18,10 +37,25 @@ a:visited{
 }
 
 a:hover, a:active {
-  color: floralwhite;
+  color: black;
 }
 
 h1 {
   font-style: medium;
   font-weight: 700;
   font-size: 100;
+
+ @media screen and (max-width: 895px) {
+ 	.col {
+ 		width: 50%;
+ 		margin-bottom: 50px;
+ 	}
+ }
+
+
+@media screen and (max-width: 895px) {
+  .col {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+}
