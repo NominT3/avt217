@@ -3,7 +3,7 @@ header{
 	margin: 25px auto;
 	background-color: skyblue;
 	align-content: center;
-	color: antiquewhite;
+	color: ghostwhite;
 }
 
 main{
@@ -11,18 +11,17 @@ main{
 	margin: 25px auto;
 	background-color: floralwhite;
 	display: flow-root;
-	color: antiquewhite;
+	color: deepskyblue;
 }
 
 .col{
 	width: 50%;
-	background-color: floralwhite;
 	float: left;
 }
 
 body{
 	background-color:aliceblue;
-	color: antiquewhite;
+	color: royalblue;
 }
 
 body{
@@ -59,6 +58,7 @@ h1 {
  	}
  	body{
  		background-color: darkred;
+ 		color: indianred;
  	}
  	header{
  		width:50vw;
@@ -67,6 +67,7 @@ h1 {
  	main{
 		width: 70vw;
 		background-color: floralwhite;
+		color: indianred;
  	}
  	h1{
  		width: 50vw;
