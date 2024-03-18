@@ -1,7 +1,9 @@
 header{
-	width:75vw;
+	width:50vw;
 	margin: 25px auto;
 	background-color: skyblue;
+	align-content: center;
+	color: antiquewhite;
 }
 
 main{
@@ -9,6 +11,7 @@ main{
 	margin: 25px auto;
 	background-color: floralwhite;
 	display: flow-root;
+	color: antiquewhite;
 }
 
 .col{
@@ -19,6 +22,7 @@ main{
 
 body{
 	background-color:aliceblue;
+	color: antiquewhite;
 }
 
 body{
@@ -44,16 +48,28 @@ h1 {
   font-style: medium;
   font-weight: 700;
   font-size: 100;
+}
 
 @media screen and (max-width: 895px) {
  	.col {
  		width: 50%;
  		margin-bottom: 50px;
+ 		float: left;
+ 		padding: 0 25px;
  	}
- }
-
- @media screen and (max-width: 895px) {
  	body{
- 		background-color: purple;
+ 		background-color: darkred;
  	}
+ 	header{
+ 		width:50vw;
+ 		background-color: orangered;
+ 	}
+ 	main{
+		width: 70vw;
+		background-color: floralwhite;
+ 	}
+ 	h1{
+ 		width: 50vw;
+ 	}
+ 	
  }
