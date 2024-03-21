@@ -22,3 +22,51 @@ body{
 	width: 800px;
 	margin: auto;
 }
+
+.container{
+	width: 950px;
+	display: flow-root;
+}
+
+.col{
+background-color: tomato;
+width: 300px;
+height: 500px;
+float: left;
+margin:0;
+}
+
+#col{
+background-color: tomato;
+width: 300px;
+height: 500px;
+margin: 0 25px 0;
+float: left;
+}
+
+.nav{
+background-color: tomato;
+height: 50px;
+width: 950px;
+margin: 0 0 25px 0;
+}
+.footer{
+background-color: tomato;
+height: 150px;
+width: 950px;
+margin: 25px 0 0 0;
+float: left;
+}
+
+.header{
+background-color: tomato;
+height: 150px;
+width: 950px;
+margin: 0 0 25px 0;
+}
+
+.container{
+width: 950px;
+display: flow-root;
+margin: 50px auto;
+}
