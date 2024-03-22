@@ -31,7 +31,7 @@ body{
 .col{
 background-color: tomato;
 width: 300px;
-height: 500px;
+height: 800px;
 float: left;
 margin:0;
 }
@@ -39,7 +39,7 @@ margin:0;
 #col{
 background-color: tomato;
 width: 300px;
-height: 500px;
+height: 800px;
 margin: 0 25px 0;
 float: left;
 }
@@ -69,4 +69,118 @@ margin: 0 0 25px 0;
 width: 950px;
 display: flow-root;
 margin: 50px auto;
+}
+
+
+
+
+.screen1{
+	width: 1100px;
+	display: flow-root;
+}
+
+.header1{
+	background-color: tomato;
+	height: 150px;
+	width: 80%;
+	float: left;
+	margin: 10px 50px 90px;
+}
+
+.media{
+	background-color: tomato;
+	height: 500px;
+	width: 65%;
+	float: left;
+	margin: 10px 0 10px 50px;
+}
+
+.comment{
+	background-color: tomato;
+	height: 250px;
+	width: 15%;
+	float: left;
+	margin: 5px;
+}
+
+.footer1{
+	background-color: tomato;
+	height: 50px;
+	width: 70%;
+	float: left;
+	margin: 0 10px 60px 50px;
+}
+
+.screen2{
+	width: 1100px;
+	display: flow-root;
+}
+
+.media{
+	background-color: tomato;
+	height: 500px;
+	width: 65%;
+	float: left;
+	margin: 10px 10px 20px 50px;
+}
+
+.comment{
+	background-color: tomato;
+	height: 250px;
+	width: 15%;
+	float: left;
+	margin: 10px;
+}
+
+.footer1{
+	background-color: tomato;
+	height: 50px;
+	width: 65%;
+	float: left;
+	margin: 10px 10px 60px 50px;
+}
+
+.court1{
+	width: 700px;
+	display: flow-root;
+}
+
+.shape1{
+	background-color: tomato;
+	height: 300px;
+	width: 95px;
+	float: left;
+	margin: 1px;
+}
+
+.shape2{
+	background-color: tomato;
+	height: 100px;
+	width: 400px;
+	float: left;
+	margin: 1px;
+}
+
+.shape3{
+	background-color: tomato;
+	height: 300px;
+	width: 95px;
+	float: left;
+	margin: 1px;
+}
+
+.shape4{
+	background-color: tomato;
+	height: 200px;
+	width: 200px;
+	float: left;
+	margin: 1px;
+}
+
+.shape5{
+	background-color: tomato;
+	height: 200px;
+	width: 200px;
+	float: left;
+	margin: 1px;
 }
