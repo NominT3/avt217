@@ -82,6 +82,11 @@ h1 {
 }
 
 .e10{
-	background-color: royalblue;
+	background-color: aliceblue;
 	font-size: 50px;
+	width:75vw;
+	margin: 25px auto;
+	background-color: floralwhite;
+	display: flow-root;
+	color: deepskyblue;	
 }
