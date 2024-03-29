@@ -1,51 +1,60 @@
 body{
-	height: 700px;
+	height: 1011px;
+    background-color: aliceblue;
+    margin: 0;
 }
 
 .box{
 	width: 113px;
-    height: 543px;
-    background-color: skyblue;
+    height: 537px;
+    background-color: floralwhite;
     position: absolute;
-    top: 91px;
+    top: 97px;
     left: 30px;
     border-radius: 20px;
+    outline-width: 5px;
+    outline-color: powderblue;
+    outline-style: solid;
 }
 
 .inside{
 	width: 300px;
-    height: 436px;
-    background-color: blueviolet;
+    height: 428px;
+    background-color: mediumblue;
     position: absolute;
-    top: 94px;
+    top: 93px;
     left: 150px;
     opacity: 50%;
+    border-radius: 10px;
 }
 
 .circle{
 	width:100px;
 	height:100px;
-	background-color:royalblue;
+	background-color:floralwhite;
 	border-radius: 50%;
 	position: absolute;
 	top: 476px;
 	left: 104px;
+    outline-width: 5px;
+    outline-color: powderblue;
+    outline-style: solid;
 }
 
 .round{
 	width: 196px;
     height: 142px;
-    background-color: mediumblue;
+    background-color: navajowhite;
     border-radius: 50%;
     position: absolute;
     top: 445px;
-    left: 254px;
+    left: 252px;
 }
 
 .flat{
 	width: 207px;
-    height: 142px;
-    background-color: greenyellow;
+    height: 82px;
+    background-color: navajowhite;
     position: absolute;
     top: 445px;
     left: 150px;
@@ -54,7 +63,7 @@ body{
 .outer{
 	width:80px;
 	height:80px;
-	background-color:aliceblue;
+	background-color:powderblue;
 	border-radius: 50%;
 	position: absolute;
 	top: 485px;
@@ -62,72 +71,72 @@ body{
 }
 
 .cover{
-	width: 400px;
-    height: 80px;
-    background-color: skyblue;
+	width: 414px;
+    height: 104px;
+    background-color: floralwhite;
     position: absolute;
     top: 530px;
-    left: 50px;
+    left: 31px;
     border-radius: 0;
-}
-
-.cover2{
-	width: 400px;
-    height: 50px;
-    background-color: skyblue;
-    position: absolute;
-    top: 584px;
-    left: 50px;
+    outline-width: 5px;
+    outline-color: powderblue;
+    outline-style: solid;
     border-radius: 20px;
 }
 
 .top{
 	width: 112px;
     height: 25px;
-    background-color: palegreen;
+    background-color: floralwhite;
     position: absolute;
     top: 60px;
     left: 31px;
     border-radius: 20px;
+    outline-width: 5px;
+    outline-color: powderblue;
+    outline-style: solid;
 }
 
 .top2{
 	width: 300px;
     height: 25px;
-    background-color: sandybrown;
+    background-color: floralwhite;
     position: absolute;
     top: 60px;
     left: 150px;
     border-radius: 20px;
+    outline-width: 5px;
+    outline-color: powderblue;
+    outline-style: solid;
 }
 
 .dial{
 	width: 30px;
     height: 60px;
-    background-color: palegoldenrod;
+    background-color: ghostwhite;
     position: relative;
     border-radius: 50%;
-    left: 132px;
-    top: 486px;
+    left: 139px;
+    top: 494px;
 }
 
 .wire1, .wire2, .wire3{
 	width: 21px;
-    height: 98px;
-    background-color: orangered;
+    height: 215px;
+    background-color: antiquewhite;
  	border-radius: 99%;
     position: absolute;
 }
 
 .wire1{
-	left: 423px;
+	left: 419px;
     top: 608px;
     transform: rotateZ(6deg);
 }
 
 .wire2{
-	left: 414px;
-    top: 659px;
+	left: 382px;
+    top: 799px;
     transform: rotateZ(15deg);
 }
 
@@ -150,4 +159,22 @@ body{
     background-color: grey;
     width: 574px;
     height: 300px;
+}
+
+.cover2{
+    width: 255px;
+    height: 24px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 515px;
+    left: 195px;
+}
+
+.cover3{
+    width: 226px;
+    height: 79px;
+    background-color: floralwhite;
+    position: absolute;
+    top: 555px;
+    left: 79px;
 }
