@@ -1,0 +1,102 @@
+body{
+	height: 700px;
+}
+
+.box{
+	width: 113px;
+    height: 539px;
+    background-color: skyblue;
+    position: absolute;
+    top: 91px;
+    left: 30px;
+    border-radius: 20px;
+}
+
+.inside{
+	width: 300px;
+    height: 436px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 94px;
+    left: 150px;
+    opacity: 50%;
+}
+
+.circle{
+	width:100px;
+	height:100px;
+	background-color:royalblue;
+	border-radius: 50%;
+	position: absolute;
+	top: 476px;
+	left: 104px;
+}
+
+.round{
+	width: 196px;
+    height: 142px;
+    background-color: mediumblue;
+    border-radius: 50%;
+    position: absolute;
+    top: 445px;
+    left: 254px;
+}
+
+.flat{
+	width: 207px;
+    height: 142px;
+    background-color: greenyellow;
+    position: absolute;
+    top: 445px;
+    left: 150px;
+}
+
+.outer{
+	width:80px;
+	height:80px;
+	background-color:aliceblue;
+	border-radius: 50%;
+	position: absolute;
+	top: 485px;
+	left: 114px;
+}
+
+.cover{
+	width: 400px;
+    height: 100px;
+    background-color: skyblue;
+    position: absolute;
+    top: 530px;
+    left: 50px;
+    border-radius: 0;
+}
+
+.top{
+	width: 112px;
+    height: 25px;
+    background-color: palegreen;
+    position: absolute;
+    top: 60px;
+    left: 31px;
+    border-radius: 20px;
+}
+
+.top2{
+	width: 300px;
+    height: 25px;
+    background-color: sandybrown;
+    position: absolute;
+    top: 60px;
+    left: 150px;
+    border-radius: 20px;
+}
+
+.dial{
+	width:30px;
+	height: 60px;
+	background-color: palegoldenrod;
+	position: absolute;
+	border-radius: 50%;
+	left: 300px;
+	top: 200px;
+}
