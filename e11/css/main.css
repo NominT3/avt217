@@ -4,7 +4,7 @@ body{
 
 .box{
 	width: 113px;
-    height: 539px;
+    height: 543px;
     background-color: skyblue;
     position: absolute;
     top: 91px;
@@ -63,12 +63,22 @@ body{
 
 .cover{
 	width: 400px;
-    height: 100px;
+    height: 80px;
     background-color: skyblue;
     position: absolute;
     top: 530px;
     left: 50px;
     border-radius: 0;
+}
+
+.cover2{
+	width: 400px;
+    height: 50px;
+    background-color: skyblue;
+    position: absolute;
+    top: 584px;
+    left: 50px;
+    border-radius: 20px;
 }
 
 .top{
@@ -92,11 +102,52 @@ body{
 }
 
 .dial{
-	width:30px;
-	height: 60px;
-	background-color: palegoldenrod;
+	width: 30px;
+    height: 60px;
+    background-color: palegoldenrod;
+    position: relative;
+    border-radius: 50%;
+    left: 132px;
+    top: 486px;
+}
+
+.wire1, .wire2, .wire3{
+	width: 21px;
+    height: 98px;
+    background-color: orangered;
+ 	border-radius: 99%;
+    position: absolute;
+}
+
+.wire1{
+	left: 423px;
+    top: 608px;
+    transform: rotateZ(6deg);
+}
+
+.wire2{
+	left: 414px;
+    top: 659px;
+    transform: rotateZ(15deg);
+}
+
+.platform{
+    position: absolute;
+    top: 465px;
+    left: -48px;
+    transform: skew(0deg);
+    border-bottom: 246px solid #555;
+    border-left: 225px solid transparent;
+    border-right: 225px solid transparent;
+    height: 0;
+    width: 125px;
+}
+
+.bottom{
 	position: absolute;
-	border-radius: 50%;
-	left: 300px;
-	top: 200px;
+    top: 710px;
+    left: -48px;
+    background-color: grey;
+    width: 574px;
+    height: 300px;
 }
