@@ -1,7 +1,14 @@
 body{
 	height: 1011px;
     background-color: aliceblue;
-    margin: 0;
+    margin: auto;
+}
+
+.drawing{
+    height: 1000px;
+    width: 1000px;
+    margin: auto;
+    position: absolute;
 }
 
 .box{
@@ -177,4 +184,11 @@ body{
     position: absolute;
     top: 555px;
     left: 79px;
+}
+
+.drawing{
+    height: 1011px;
+    width: 574px;
+    margin: auto;
+    position: relative;
 }
