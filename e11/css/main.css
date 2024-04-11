@@ -192,3 +192,20 @@ body{
     margin: auto;
     position: relative;
 }
+
+.ani{
+    height: 100px;
+    width: 100px;
+    background-color: lightblue;
+    position: absolute;
+    animation: 3s linear 2s move;
+}
+
+@keyframes move{
+    100%{
+        top:0;
+        left:0;
+    }
+    100%{
+    }
+}
